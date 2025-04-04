@@ -11,7 +11,7 @@
   "dependencies": {
     "@aws-sdk/client-ses": "^3.529.1",
     "@react-email/components": "0.0.15",
-    "@react-email/render": "^0.0.12",
+    "@react-email/render": "^1.0.5",
     "nanoid": "^5.0.6",
     "react": "^18.2.0"
   },
