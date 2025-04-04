@@ -19,7 +19,7 @@ jobs:
       preview_url: ${{ steps.preview-deployment.outputs.preview_url }}
     steps:
       - name: Initial Checkout
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4
       - name: Install Typescript Compile Tools
         run: npm install --global tsc typescript turbo
       - name: Compile Typescript
