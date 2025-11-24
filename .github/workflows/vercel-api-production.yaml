@@ -16,7 +16,7 @@ jobs:
       production_url: ${{ steps.production-deployment.outputs.production_url }}
     steps:
       - name: Initial Checkout
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v6
       - name: Install Typescript Compile Tools
         run: npm install --global tsc typescript turbo
       - name: Compile Typescript
